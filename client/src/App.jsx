@@ -1,20 +1,3 @@
-// import { useState } from 'react'
-
-
-// function App() {
-//   const [count, setCount] = useState(0)
-
-//   return (
-//     <>
-//       Hello World this is anshwardhan singh solanki
-//     </>
-//   )
-// }
-
-// export default App
-
-
-
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
