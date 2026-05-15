@@ -76,7 +76,7 @@ const About = () => {
                             </div>
                         </div>
                         <div className="mt-8 flex flex-wrap gap-3">
-                            <a href="mailto:hello@example.com" className="inline-flex items-center gap-2 rounded-lg bg-white px-5 py-3 font-semibold text-gray-950 transition hover:bg-gray-200">
+                            <a href="mailto:anshwardhansinghsolanki@gmail.com" className="inline-flex items-center gap-2 rounded-lg bg-white px-5 py-3 font-semibold text-gray-950 transition hover:bg-gray-200">
                                 <FaEnvelope /> Contact Me
                             </a>
                             <a href="https://www.linkedin.com/in/anshwardhan-singh-solanki/" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-lg border border-white/15 px-5 py-3 font-semibold text-white transition hover:bg-white/10">
