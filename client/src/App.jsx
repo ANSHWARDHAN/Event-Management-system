@@ -26,6 +26,8 @@ import UserDashboard from './pages/UserDashboard';
 import AdminDashboard from './pages/AdminDashboard';
 import PaymentSuccess from './pages/PaymentSuccess';
 import PaymentFailed from './pages/PaymentFailed';
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 
 function App() {
     return (
