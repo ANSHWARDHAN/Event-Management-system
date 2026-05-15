@@ -21,6 +21,7 @@ const Navbar = () => {
                     </Link>
                     <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6">
                         <Link to="/" className="text-gray-200 hover:text-white transition cursor-pointer">Events</Link>
+                        <Link to="/about" className="text-gray-200 hover:text-white transition">About</Link>
                         {user ? (
                             <>
                                 <Link to={user.role === 'admin' ? '/admin' : '/dashboard'} className="text-gray-200 hover:text-white transition">Dashboard</Link>
