@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FaCalendarCheck, FaEnvelope, FaHandshake, FaLightbulb, FaLinkedin, FaUserTie } from 'react-icons/fa';
-
+ 
 const values = [
     {
         icon: <FaCalendarCheck />,
@@ -43,7 +43,7 @@ const About = () => {
                                         <FaUserTie className="mb-5 text-6xl text-gray-300" />
                                         <p className="text-2xl font-bold">Your Photo Here</p>
                                         <p className="mt-3 text-sm leading-6 text-gray-400">
-                                            Add your image at client/public/my-photo.jpg to display it here.
+                                            client/public/my-photo.jpg to display it here.
                                         </p>
                                     </div>
                                 )}
